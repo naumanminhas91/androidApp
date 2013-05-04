@@ -7,12 +7,12 @@
     * [Import the project to your workspace](#import-the-project-to-your-workspace)
     * [Run the app](#run-the-app)
     * [Troubleshooting](#troubleshooting)
-  *[Server Side](#serverside)  
+  * [Server Side](#serverside)  
     * [Download Netbeans](#download-netbeans)
     * [Import Server side code to your workspace](#import-the-project-to-your-workspacex)
     * [Run the Server](#run-the-Server)
 
-  *[Connecting client app to server](#client-server-connection) 
+  * [Connecting client app to server](#client-server-connection) 
 
 
 # Requirements
@@ -56,14 +56,14 @@ Follow the instructions under "Add your API key" and try again.
 
 ## Download netbeans with apache tomcat
 
-##Import Server side code to your workspace
+## Import Server side code to your workspace
   1. Choose File > Open Project
   2. Navigate to campusnav folder in source code folder
   3. Import into workspace
 
 ## Run the server
 
-#Connecting client app to server
+# Connecting client app to server
   1. Open res/values/strings.xml in android project 
   2. Change "server_base_url" to your server's base url which you set up in previous step
   3. Now client app will connect to your server
