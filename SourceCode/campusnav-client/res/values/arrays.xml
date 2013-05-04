@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/map</item>		
+		<item>@drawable/settings</item> 		
+		<item>@drawable/help</item>		
+		<item>@drawable/about</item>
+		<item>@drawable/emergency</item>						
+	</array>	
+	<array name="names">
+	    <item>Map</item>
+	    <item>Settings</item>
+	    <item>Help</item>
+	    <item>About</item>
+	    <item>Emergency</item>
+	</array>
+	
+	<array name="med_number">
+		<item>042111115867</item>
+		<item>03453053692</item>
+		<item>03244495820</item>
+		<item>03333588329</item>
+	</array>
+	
+	<array name="help">
+	    <item>Make sure that GPS on your device is turned on.</item>
+	    <item>Make sure you are connected to Wifi at LUMS Campus.</item>
+	    <item>Select “Map” menu from the home page of the app. A map will be displayed.</item>
+	    <item>Go to options menu on your device. Three options will be displayed:	Current Location, Get Directions and Change Floor.</item>
+	    <item>Gives your current location on campus.</item>
+	    <item>Asks for source/starting location and destination location and displays the shortest route between the two on the map.</item>
+	    <item>Displays the locations on the map according to the floor (for multi-story buildings).</item>
+	    <item>“Emergency” tab on the main menu gives the numbers for LUMS Emergency Service (EMS) and the security office.</item>
+	</array>
+	    
+	<array name="help_parent">
+	    <item>Check GPS</item>
+	    <item>Check Wifi</item>
+	    <item>Map option</item>
+	    <item>Options</item>
+	    <item>Current Location</item>
+	    <item>Get Directions</item>
+	    <item>Change Floor</item>
+	    <item>Emergency</item>
+	    	    
+	</array>
+	
+	<array name="about_parent">
+	    <item>About the App</item>
+	    <item>Contact Us</item>
+	    <item>Privacy Policy</item>
+	</array>
+	
+	<array name="about">
+	    <item>LUMS Campus Nav aims to provide all the campus details to the LUMS Community on fingertips. The
+app gives the map of LUMS and enables us to search locations and routes within LUMS. It also provides
+emergency numbers for EMS and LUMS security.</item>
+	    <item>campus.nav@gmail.com</item>
+	    <item>In order to protect your privacy and security, we ensure that:</item>
+	    <item>1. We never store or collect data entered into any search fields.</item>
+	    <item>2. We never store or collect logs of of your location.</item>
+	</array>    
+	
+	<array name="food_parent">
+	    <item>LUMS Khoka</item>
+	    <item>Super Store</item>
+	    <item>Zakir Tikka</item>
+	    <item>Red Apple</item>
+	</array>
+	
+	<array name="food">
+	    <item>ext:3803</item>
+	    <item>ext:2555</item>
+	    <item>Address: Above PDC</item>
+	</array>
+	    
+</resources>
+
+
+
+
+
+
+
+
+

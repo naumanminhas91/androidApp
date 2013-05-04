@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <!--  <item
+        android:id="@+id/location_indoor"
+        android:title="CurrentLocation Indoor">
+    </item>
+    -->
+    <item
+        android:id="@+id/location"
+        android:title="CurrentLocation">
+    </item>
+ 	
+    <item
+        android:id="@+id/show_route"
+        android:title="Get Directions">
+    </item>
+        
+    <item
+        android:id="@+id/change_floor"
+        android:title="Change Floor">
+        <menu>
+			<item 
+			    android:id="@+id/ground_floor"
+			    android:title="Ground">			    
+			</item>
+			<item 
+			    android:id="@+id/first_floor"
+			    android:title="First">			    
+			</item>
+        </menu>
+    </item>
+
+</menu>

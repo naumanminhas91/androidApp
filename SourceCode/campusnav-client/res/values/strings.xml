@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus Nav</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_get_input">Find Route</string>
+    <string name="title_activity_security">SecurityActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_medic">MedicActivity</string>
+    <string name="title_activity_medical_acivity">MedicalAcivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="app_ver">1.0</string>
+
+</resources>

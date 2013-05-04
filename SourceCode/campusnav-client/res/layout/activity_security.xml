@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/appbackelsex">
+
+     <TextView
+        android:id="@+id/sec_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Dial the following numbers in case of any Security Emergency"
+        android:textColor="#213375"
+        android:textSize="17sp"
+        android:textStyle="bold" 
+        android:typeface="serif"/>
+     
+     <TextView
+        android:id="@+id/security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sec_dial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="LUMS Security Numbers"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#213375" />
+     
+    <TextView
+        android:id="@+id/sec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/sec_dial"
+        android:layout_alignRight="@id/sec_dial"
+        android:layout_below="@+id/security"
+        android:layout_marginTop="30dp"
+        android:text="ext:2563"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#213375"
+        android:textSize="25sp" />
+     <Button
+        android:id="@+id/button_sec_1"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/sec1"
+        android:layout_alignRight="@+id/sec_dial"
+        android:layout_alignTop="@+id/sec1"
+        android:text="Call"
+        android:textSize="16sp" />
+    
+    
+</RelativeLayout>

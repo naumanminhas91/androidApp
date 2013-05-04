@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/appbackelse">
+	
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Campus Nav" 
+        android:textColor="#213375"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textScaleX="1.1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25dp">
+			
+    </ExpandableListView>
+	
+</LinearLayout>
